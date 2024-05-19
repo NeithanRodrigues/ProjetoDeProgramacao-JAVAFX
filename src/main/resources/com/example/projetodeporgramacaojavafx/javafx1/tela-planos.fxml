@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="784.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetodeporgramacaojavafx.javafx1.SolarController">
+    <children>
+        <AnchorPane prefHeight="785.0" prefWidth="313.0" style="-fx-background-color: #1224c7;">
+            <children>
+            <ImageView fitHeight="161.0" fitWidth="161.0" layoutX="76.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/do-utilizador.png" />
+               </image>
+            </ImageView>
+                <Label graphicTextGap="10.0" layoutX="31.0" layoutY="213.0" prefHeight="45.0" prefWidth="247.0" text="Nathan Rodrigues" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Label>
+                <Label layoutX="37.0" layoutY="258.0" opacity="0.48" text="nathan-unima@gmail.com" textFill="WHITE">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Button layoutY="360.0" mnemonicParsing="false" onAction="#trocarParaPrincipal" prefHeight="53.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PÁGINA PRINCIPAL" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                    <opaqueInsets>
+                        <Insets bottom="50.0" />
+                    </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/casa-1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+                <Button layoutX="-2.0" layoutY="570.0" mnemonicParsing="false" onAction="#trocarParaCreditos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="CRÉDITOS" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/painel-solar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+                <Button layoutY="430.0" mnemonicParsing="false" onAction="#trocarParaPagamentos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PAGAMENTOS" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/nota-de-dolar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+                <Button alignment="CENTER" layoutX="-2.0" layoutY="500.0" mnemonicParsing="false" onAction="#trocarParaPlanos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PLANOS" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/lista-de-precos.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="308.0" prefHeight="83.0" prefWidth="879.0" style="-fx-background-color: #1224c7;">
+            <children>
+                <Label alignment="CENTER_RIGHT" layoutX="753.0" layoutY="22.0" text="Planos" textFill="WHITE">
+                    <font>
+                        <Font size="27.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/lista-de-precos.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Label>
+            </children>
+        </AnchorPane>
+      <ScrollPane hbarPolicy="NEVER" layoutX="308.0" layoutY="83.0" prefHeight="701.0" prefWidth="879.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="954.0" prefWidth="878.0">
+               <children>
+                  <AnchorPane layoutX="70.0" layoutY="362.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="355.0" style="-fx-background-color: white; -fx-border-radius: 50px; -fx-border-color: #1224c7; -fx-background-radius: 50px;" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="362.0">
+                     <children>
+                        <Pane layoutX="2.0" prefHeight="69.0" prefWidth="247.0" style="-fx-background-color: #1224c7; -fx-background-radius: 50px;">
+                           <children>
+                              <Label layoutX="41.0" layoutY="15.0" prefHeight="40.0" prefWidth="173.0" text="Plano Básico" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Text layoutX="10.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Coleta e processamento de faturas; ">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="10.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Integração com softwares de inversores; ">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="10.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Painel do gerador e do consumidor;">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="10.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Balanço de créditos e relatório de geração e consumo." wrappingWidth="304.53125">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Label layoutX="83.0" layoutY="395.0" text="Plano Atual" textFill="#1224c7">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../imagens/checkbox.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="491.0" layoutY="362.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="326.0" style="-fx-background-color: white; -fx-background-radius: 50px; -fx-border-color: #1224c7; -fx-border-radius: 50px;" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="362.0">
+                     <children>
+                        <Pane layoutX="2.0" prefHeight="69.0" prefWidth="247.0" style="-fx-background-color: #1224c7; -fx-background-radius: 50px;">
+                           <children>
+                              <Label layoutX="41.0" layoutY="15.0" prefHeight="40.0" prefWidth="173.0" text="Plano Básico" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Text layoutX="10.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Todas as funcionalidades do Plano Básico e mais: " wrappingWidth="313.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="15.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Gestão de contratos;">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="11.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Resolução de problemas de faturamento com a concessionária; " wrappingWidth="291.1357421875">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="11.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Personalização da plataforma com as suas de regras de negócio (remuneração do gerador, desconto ao consumidor, bandeiras tarifárias, etc.)." wrappingWidth="304.53125">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="93.0" layoutY="387.0" mnemonicParsing="false" style="-fx-background-color: null; -fx-border-color: #1224c7; -fx-border-radius: 50px;" text="Contratar" textFill="#1224c7">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="25.0" layoutY="30.0" text="Contrato" textFill="#1224c7" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
+                     <font>
+                        <Font size="31.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="25.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Na Solar Lux, estamos comprometidos em oferecer serviços de alta qualidade e transparência aos nossos clientes. Ao assinar um contrato conosco, você pode esperar um compromisso firme de um ano. Isso significa que, ao se tornar nosso cliente, você está garantindo os benefícios e serviços exclusivos que a Solar Lux proporciona ao longo de um período de doze meses. Durante esse tempo, estaremos ao seu lado, oferecendo suporte contínuo e buscando constantemente maneiras de atender e exceder suas expectativas. Nosso objetivo é construir uma parceria sólida e duradoura, e nosso contrato de um ano reflete esse compromisso mútuo." wrappingWidth="826.912109375" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="23.0" layoutY="289.0" text="Opções" textFill="#1224c7" AnchorPane.leftAnchor="30.0">
+                     <font>
+                        <Font size="31.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="395.0" layoutY="884.0" text="Nathan Rodrigues" textFill="#1224c7" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+    </children>
+</AnchorPane>

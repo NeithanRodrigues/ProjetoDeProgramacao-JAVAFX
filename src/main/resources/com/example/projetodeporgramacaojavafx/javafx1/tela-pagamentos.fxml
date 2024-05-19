@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="784.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetodeporgramacaojavafx.javafx1.SolarController">
+    <children>
+      <ScrollPane hbarPolicy="NEVER" hmax="0.0" layoutX="308.0" layoutY="83.0" prefHeight="700.0" prefWidth="879.0" vbarPolicy="ALWAYS" vmax="1.5">
+         <content>
+              <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="1260.0" prefWidth="877.0">
+                  <children>
+                      <Label layoutX="26.0" layoutY="30.0" prefHeight="65.0" prefWidth="272.0" text="Emissão de Boletos" textFill="#1224c7" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="30.0">
+                          <font>
+                              <Font size="31.0" />
+                          </font>
+                      </Label>
+                      <Text layoutX="28.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A emissão de boletos é um processo essencial para empresas e instituições financeiras que desejam receber pagamentos de clientes de forma eficiente e segura. Um boleto bancário é um documento utilizado para efetuar pagamentos, contendo informações como o valor a ser pago, a data de vencimento, o código de barras para identificação eletrônica, além de dados do beneficiário e do pagador." textAlignment="JUSTIFY" wrappingWidth="783.685546875" AnchorPane.leftAnchor="28.0">
+                          <font>
+                              <Font size="18.0" />
+                          </font>
+                      </Text>
+                      <Text layoutX="29.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Solar Lux é uma empresa dedicada ao fornecimento de soluções inovadoras em energia solar, oferecendo produtos e serviços de alta qualidade para seus clientes. Como parte de seu compromisso em proporcionar uma experiência completa aos seus clientes, a Solar Lux adota a emissão de boletos como um método conveniente e seguro de receber pagamentos." textAlignment="JUSTIFY" wrappingWidth="780.919921875" AnchorPane.leftAnchor="30.0">
+                          <font>
+                              <Font size="18.0" />
+                          </font>
+                      </Text>
+                      <Text layoutX="29.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Através da emissão de boletos, oferece aos seus clientes uma forma simples e eficiente de realizar seus pagamentos, proporcionando praticidade e comodidade em cada transação. Com boletos personalizados, contendo todas as informações necessárias, como valor, vencimento e identificação do cliente, a empresa garante uma experiência transparente e confiável." wrappingWidth="780.9736328125" AnchorPane.leftAnchor="29.0">
+                          <font>
+                              <Font size="18.0" />
+                          </font>
+                      </Text>
+                      <Text layoutX="26.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assim, a Solar Lux reafirma seu compromisso em oferecer soluções inovadoras e serviços de excelência, tornando a energia solar acessível a todos e contribuindo para um futuro mais sustentável." wrappingWidth="781.7626953125" AnchorPane.leftAnchor="26.0">
+                          <font>
+                              <Font size="18.0" />
+                          </font>
+                      </Text>
+                      <Label layoutX="30.0" layoutY="560.0" text="Boletos" textFill="#1224c7" AnchorPane.leftAnchor="30.0">
+                          <font>
+                              <Font size="31.0" />
+                          </font>
+                      </Label>
+                      <GridPane gridLinesVisible="true" layoutX="29.0" layoutY="620.0" prefHeight="529.0" prefWidth="819.0" AnchorPane.leftAnchor="29.0">
+                          <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                              <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                              <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                              <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                              <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                          <opaqueInsets>
+                              <Insets />
+                          </opaqueInsets>
+                          <children>
+                              <Label text="MÊS" GridPane.halignment="CENTER" />
+                              <Label text="ID°" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+                              <Label prefHeight="18.0" prefWidth="96.0" text="VENCIMENTO" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" />
+                              <Label text="STATUS" GridPane.columnIndex="3" GridPane.halignment="CENTER" />
+                              <Label text="EMISSÃO" GridPane.columnIndex="4" GridPane.halignment="CENTER" />
+                              <Label text="JANEIRO" GridPane.rowIndex="1" />
+                              <Label text="FEVEREIRO" GridPane.rowIndex="2" />
+                              <Label text="MARÇO" GridPane.rowIndex="3" />
+                              <Label text="ABRIL" GridPane.rowIndex="4" />
+                              <Label text="MAIO" GridPane.rowIndex="5" />
+                              <Label fx:id="id1Label" text="ID° 1" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label fx:id="id2Label" text="ID° 2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label fx:id="id3Label" text="ID° 3" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Label fx:id="id4Label" text="ID° 4" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Label fx:id="id5Label" text="ID° 5" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <Label prefHeight="17.0" prefWidth="75.0" text="20/01/2024" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Label prefHeight="17.0" prefWidth="75.0" text="20/02/2024" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <Label prefHeight="17.0" prefWidth="75.0" text="20/03/2024" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <Label prefHeight="17.0" prefWidth="75.0" text="20/04/2024" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                              <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                              <Label text="PAGO" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <Label text="PAGO" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <Label text="PAGO" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                              <Label text="PAGO" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                              <Label text="PAGO" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                                  <font>
+                                      <Font size="10.0" />
+                                  </font>
+                              </Button>
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                                  <font>
+                                      <Font size="10.0" />
+                                  </font>
+                              </Button>
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                                  <font>
+                                      <Font size="10.0" />
+                                  </font>
+                              </Button>
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                                  <font>
+                                      <Font size="10.0" />
+                                  </font>
+                              </Button>
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                                  <font>
+                                      <Font size="10.0" />
+                                  </font>
+                              </Button>
+                        <Label text="JUNHO " GridPane.rowIndex="6" />
+                        <Label text="JULHO" GridPane.rowIndex="7" />
+                        <Label text="AGOSTO" GridPane.rowIndex="8" />
+                        <Label text="SETEMBRO" GridPane.rowIndex="9" />
+                        <Label text="OUTUBRO" GridPane.rowIndex="10" />
+                        <Label text="NOVEMBRO" GridPane.rowIndex="11" />
+                        <Label text="DEZEMBRO" GridPane.rowIndex="12" />
+                        <Label fx:id="id6Label" text="ID° 6" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <Label fx:id="id7Label" text="ID° 7" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Label fx:id="id8Label" text="ID° 8" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <Label fx:id="id9Label" text="ID° 9" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <Label fx:id="id10Label" text="ID° 10" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <Label fx:id="id11Label" text="ID° 11" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <Label fx:id="id12Label" text="ID° 12" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+                        <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                        <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                        <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                        <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                        <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                        <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+                        <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="11">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="12">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                          </children>
+                          <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                          </cursor>
+                      </GridPane>
+                  <Label layoutX="391.0" layoutY="1238.0" text="Nathan Rodrigues" />
+                  </children>
+              </AnchorPane>
+         </content>
+      </ScrollPane>
+        <AnchorPane prefHeight="784.0" prefWidth="313.0" style="-fx-background-color: #1224c7;">
+            <children>
+            <ImageView fitHeight="161.0" fitWidth="161.0" layoutX="76.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/do-utilizador.png" />
+               </image>
+            </ImageView>
+                <Label graphicTextGap="10.0" layoutX="31.0" layoutY="213.0" prefHeight="45.0" prefWidth="247.0" text="Nathan Rodrigues" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Label>
+                <Label layoutX="37.0" layoutY="258.0" opacity="0.48" text="nathan-unima@gmail.com" textFill="WHITE">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Button layoutY="360.0" mnemonicParsing="false" onAction="#trocarParaPrincipal" prefHeight="53.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PÁGINA PRINCIPAL" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                    <opaqueInsets>
+                        <Insets bottom="50.0" />
+                    </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/casa-1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+                <Button layoutX="-2.0" layoutY="570.0" mnemonicParsing="false" onAction="#trocarParaCreditos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="CRÉDITOS" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/painel-solar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+                <Button layoutY="430.0" mnemonicParsing="false" onAction="#trocarParaPagamentos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PAGAMENTOS" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/nota-de-dolar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+                <Button alignment="CENTER" layoutX="-2.0" layoutY="500.0" mnemonicParsing="false" onAction="#trocarParaPlanos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PLANOS" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/lista-de-precos.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="308.0" prefHeight="83.0" prefWidth="879.0" style="-fx-background-color: #1224c7;">
+            <children>
+                <Label alignment="CENTER_RIGHT" layoutX="691.0" layoutY="22.0" text="Pagamentos" textFill="WHITE">
+                    <font>
+                        <Font size="27.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/nota-de-dolar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
