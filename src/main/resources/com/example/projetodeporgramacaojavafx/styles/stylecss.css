@@ -1,0 +1,64 @@
+.contratarButton {
+    -fx-background-color: null;
+    -fx-border-color:  #1224c7;
+    -fx-border-radius: 50px;
+    -fx-font-size: 25px;
+    -fx-text-fill: #1224c7;
+}
+
+.contratarButton:hover{
+    -fx-background-radius: 50px;
+    -fx-background-color: #1224c7;
+        -fx-border-color:  null;
+        -fx-border-radius: 50px;
+        -fx-font-size: 25px;
+        -fx-text-fill: white;
+}
+
+.homepageButton{
+    -fx-background-color: #1224c7;
+    -fx-font-size: 22px;
+    -fx-text-fill: white;
+}
+
+.homepageButton:hover{
+    -fx-background-color: #1224c7;
+        -fx-font-size: 22px;
+        -fx-text-fill: #4b57c9;
+}
+
+.pagamentoButton{
+    -fx-background-color: #1224c7;
+    -fx-font-size: 22px;
+    -fx-text-fill: white;
+}
+
+.pagamentoButton:hover{
+    -fx-background-color: #1224c7;
+        -fx-font-size: 22px;
+        -fx-text-fill: #4b57c9;
+}
+
+.planosButton{
+    -fx-background-color: #1224c7;
+    -fx-font-size: 22px;
+    -fx-text-fill: white;
+}
+
+.planosButton:hover{
+    -fx-background-color: #1224c7;
+        -fx-font-size: 22px;
+        -fx-text-fill: #4b57c9;
+}
+
+.creditosButton{
+    -fx-background-color: #1224c7;
+    -fx-font-size: 22px;
+    -fx-text-fill: white;
+}
+
+.creditosButton:hover{
+    -fx-background-color: #1224c7;
+        -fx-font-size: 22px;
+        -fx-text-fill: #4b57c9;
+}

@@ -20,12 +20,12 @@
          <content>
               <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="1260.0" prefWidth="877.0">
                   <children>
-                      <Label layoutX="26.0" layoutY="30.0" prefHeight="65.0" prefWidth="272.0" text="Emissão de Boletos" textFill="#1224c7" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="30.0">
+                      <Label layoutX="26.0" layoutY="30.0" prefHeight="65.0" prefWidth="272.0" text="Emissão de Boletos" textFill="#1224c7" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
                           <font>
                               <Font size="31.0" />
                           </font>
                       </Label>
-                      <Text layoutX="28.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A emissão de boletos é um processo essencial para empresas e instituições financeiras que desejam receber pagamentos de clientes de forma eficiente e segura. Um boleto bancário é um documento utilizado para efetuar pagamentos, contendo informações como o valor a ser pago, a data de vencimento, o código de barras para identificação eletrônica, além de dados do beneficiário e do pagador." textAlignment="JUSTIFY" wrappingWidth="783.685546875" AnchorPane.leftAnchor="28.0">
+                      <Text layoutX="30.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A emissão de boletos é um processo essencial para empresas e instituições financeiras que desejam receber pagamentos de clientes de forma eficiente e segura. Um boleto bancário é um documento utilizado para efetuar pagamentos, contendo informações como o valor a ser pago, a data de vencimento, o código de barras para identificação eletrônica, além de dados do beneficiário e do pagador." textAlignment="JUSTIFY" wrappingWidth="783.685546875" AnchorPane.leftAnchor="30.0">
                           <font>
                               <Font size="18.0" />
                           </font>
@@ -35,12 +35,12 @@
                               <Font size="18.0" />
                           </font>
                       </Text>
-                      <Text layoutX="29.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Através da emissão de boletos, oferece aos seus clientes uma forma simples e eficiente de realizar seus pagamentos, proporcionando praticidade e comodidade em cada transação. Com boletos personalizados, contendo todas as informações necessárias, como valor, vencimento e identificação do cliente, a empresa garante uma experiência transparente e confiável." wrappingWidth="780.9736328125" AnchorPane.leftAnchor="29.0">
+                      <Text layoutX="30.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Através da emissão de boletos, oferece aos seus clientes uma forma simples e eficiente de realizar seus pagamentos, proporcionando praticidade e comodidade em cada transação. Com boletos personalizados, contendo todas as informações necessárias, como valor, vencimento e identificação do cliente, a empresa garante uma experiência transparente e confiável." wrappingWidth="780.9736328125" AnchorPane.leftAnchor="30.0">
                           <font>
                               <Font size="18.0" />
                           </font>
                       </Text>
-                      <Text layoutX="26.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assim, a Solar Lux reafirma seu compromisso em oferecer soluções inovadoras e serviços de excelência, tornando a energia solar acessível a todos e contribuindo para um futuro mais sustentável." wrappingWidth="781.7626953125" AnchorPane.leftAnchor="26.0">
+                      <Text layoutX="26.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assim, a Solar Lux reafirma seu compromisso em oferecer soluções inovadoras e serviços de excelência, tornando a energia solar acessível a todos e contribuindo para um futuro mais sustentável." wrappingWidth="781.7626953125" AnchorPane.leftAnchor="30.0">
                           <font>
                               <Font size="18.0" />
                           </font>
@@ -50,7 +50,7 @@
                               <Font size="31.0" />
                           </font>
                       </Label>
-                      <GridPane gridLinesVisible="true" layoutX="29.0" layoutY="620.0" prefHeight="529.0" prefWidth="819.0" AnchorPane.leftAnchor="29.0">
+                      <GridPane gridLinesVisible="true" layoutX="29.0" layoutY="620.0" prefHeight="529.0" prefWidth="819.0" AnchorPane.leftAnchor="30.0">
                           <columnConstraints>
                               <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
                               <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
@@ -102,27 +102,27 @@
                               <Label text="PAGO" GridPane.columnIndex="3" GridPane.rowIndex="3" />
                               <Label text="PAGO" GridPane.columnIndex="3" GridPane.rowIndex="4" />
                               <Label text="PAGO" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="1">
                                   <font>
                                       <Font size="10.0" />
                                   </font>
                               </Button>
-                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="2">
                                   <font>
                                       <Font size="10.0" />
                                   </font>
                               </Button>
-                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="3">
                                   <font>
                                       <Font size="10.0" />
                                   </font>
                               </Button>
-                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="4">
                                   <font>
                                       <Font size="10.0" />
                                   </font>
                               </Button>
-                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                              <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="5">
                                   <font>
                                       <Font size="10.0" />
                                   </font>
@@ -155,37 +155,37 @@
                         <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="10" />
                         <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="11" />
                         <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="12" />
-                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="6">
                            <font>
                               <Font size="10.0" />
                            </font>
                         </Button>
-                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="7">
                            <font>
                               <Font size="10.0" />
                            </font>
                         </Button>
-                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="8">
                            <font>
                               <Font size="10.0" />
                            </font>
                         </Button>
-                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="9">
                            <font>
                               <Font size="10.0" />
                            </font>
                         </Button>
-                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="10">
                            <font>
                               <Font size="10.0" />
                            </font>
                         </Button>
-                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="11">
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="11">
                            <font>
                               <Font size="10.0" />
                            </font>
                         </Button>
-                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="12">
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR" textFill="#fcfcfc" GridPane.columnIndex="4" GridPane.rowIndex="12">
                            <font>
                               <Font size="10.0" />
                            </font>
@@ -217,7 +217,7 @@
                         <Font size="20.0" />
                     </font>
                 </Label>
-                <Button layoutY="360.0" mnemonicParsing="false" onAction="#trocarParaPrincipal" prefHeight="53.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PÁGINA PRINCIPAL" textAlignment="CENTER" textFill="WHITE">
+                <Button fx:id="homepageButton" layoutY="360.0" mnemonicParsing="false" onAction="#trocarParaPrincipal" prefHeight="53.0" prefWidth="313.0" styleClass="homepageButton" stylesheets="@../styles/stylecss.css" text="PÁGINA PRINCIPAL" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font size="22.0" />
                     </font>
@@ -235,7 +235,7 @@
                   </ImageView>
                </graphic>
                 </Button>
-                <Button layoutX="-2.0" layoutY="570.0" mnemonicParsing="false" onAction="#trocarParaCreditos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="CRÉDITOS" textAlignment="CENTER" textFill="WHITE">
+                <Button fx:id="creditosButton" layoutX="-2.0" layoutY="570.0" mnemonicParsing="false" onAction="#trocarParaCreditos" prefHeight="46.0" prefWidth="313.0" styleClass="creditosButton" stylesheets="@../styles/stylecss.css" text="CRÉDITOS" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font size="22.0" />
                     </font>
@@ -247,7 +247,7 @@
                   </ImageView>
                </graphic>
                 </Button>
-                <Button layoutY="430.0" mnemonicParsing="false" onAction="#trocarParaPagamentos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PAGAMENTOS" textAlignment="CENTER" textFill="WHITE">
+                <Button fx:id="pagamentoButton" layoutY="430.0" mnemonicParsing="false" onAction="#trocarParaPagamentos" prefHeight="46.0" prefWidth="313.0" styleClass="pagamentoButton" stylesheets="@../styles/stylecss.css" text="PAGAMENTOS" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font size="22.0" />
                     </font>
@@ -259,7 +259,7 @@
                   </ImageView>
                </graphic>
                 </Button>
-                <Button alignment="CENTER" layoutX="-2.0" layoutY="500.0" mnemonicParsing="false" onAction="#trocarParaPlanos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PLANOS" textAlignment="CENTER" textFill="WHITE">
+                <Button fx:id="planosButton" alignment="CENTER" layoutX="-2.0" layoutY="500.0" mnemonicParsing="false" onAction="#trocarParaPlanos" prefHeight="46.0" prefWidth="313.0" styleClass="planosButton" stylesheets="@../styles/stylecss.css" text="PLANOS" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font size="22.0" />
                     </font>

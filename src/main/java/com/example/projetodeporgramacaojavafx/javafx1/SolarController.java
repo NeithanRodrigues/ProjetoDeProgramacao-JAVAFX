@@ -10,12 +10,18 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
+import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Random;
 import java.util.ResourceBundle;
+import java.io.File;
+import java.io.IOException;
+import java.awt.Desktop;
+
+import static java.awt.PageAttributes.MediaType.C;
 
 public class SolarController implements Initializable {
     private Stage stage;
@@ -56,8 +62,14 @@ public class SolarController implements Initializable {
 
     }
     @FXML
-    void trocarParaCreditos(ActionEvent event) {
-
+    void trocarParaCreditos(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(SolarApplication.class.getResource("tela-creditos.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Parent root = fxmlLoader.load();
+        SolarController pagamentosController = fxmlLoader.getController();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
     @FXML
@@ -73,7 +85,6 @@ public class SolarController implements Initializable {
             pagamentosController.setIdLabels();
         }
     }
-
 
     @FXML
     void trocarParaPlanos(ActionEvent event) throws IOException {
@@ -97,7 +108,22 @@ public class SolarController implements Initializable {
         stage.show();
     }
 
+    public void emitirBoletos(javafx.scene.input.MouseEvent mouseEvent) {
+        String filePath = "C:\\Users\\Neithan\\IdeaProjects\\ProjetoDePorgramacao-JAVAFX\\src\\main\\resources\\com\\example\\projetodeporgramacaojavafx\\boletos";
+        File file = new File(filePath);
+        if (file.exists()) {
+            try {
+                Desktop.getDesktop().open(file);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("O arquivo não existe: " + file.getName());
+        }
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
     }
 }

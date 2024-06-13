@@ -31,7 +31,7 @@
                         <Font size="20.0" />
                     </font>
                 </Label>
-                <Button layoutY="360.0" mnemonicParsing="false" onAction="#trocarParaPrincipal" prefHeight="53.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PÁGINA PRINCIPAL" textAlignment="CENTER" textFill="WHITE">
+                <Button fx:id="homepageButton" layoutY="360.0" mnemonicParsing="false" onAction="#trocarParaPrincipal" prefHeight="53.0" prefWidth="313.0" styleClass="homepageButton" stylesheets="@../styles/stylecss.css" text="PÁGINA PRINCIPAL" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font size="22.0" />
                     </font>
@@ -49,7 +49,7 @@
                   </ImageView>
                </graphic>
                 </Button>
-                <Button layoutX="-2.0" layoutY="570.0" mnemonicParsing="false" onAction="#trocarParaCreditos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="CRÉDITOS" textAlignment="CENTER" textFill="WHITE">
+                <Button fx:id="creditosButton" layoutX="-2.0" layoutY="570.0" mnemonicParsing="false" onAction="#trocarParaCreditos" prefHeight="46.0" prefWidth="313.0" styleClass="creditosButton" stylesheets="@../styles/stylecss.css" text="CRÉDITOS" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font size="22.0" />
                     </font>
@@ -61,7 +61,7 @@
                   </ImageView>
                </graphic>
                 </Button>
-                <Button layoutY="430.0" mnemonicParsing="false" onAction="#trocarParaPagamentos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PAGAMENTOS" textAlignment="CENTER" textFill="WHITE">
+                <Button fx:id="pagamentoButton" layoutY="430.0" mnemonicParsing="false" onAction="#trocarParaPagamentos" prefHeight="46.0" prefWidth="313.0" styleClass="pagamentoButton" stylesheets="@../styles/stylecss.css" text="PAGAMENTOS" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font size="22.0" />
                     </font>
@@ -73,7 +73,7 @@
                   </ImageView>
                </graphic>
                 </Button>
-                <Button alignment="CENTER" layoutX="-2.0" layoutY="500.0" mnemonicParsing="false" onAction="#trocarParaPlanos" prefHeight="46.0" prefWidth="313.0" style="-fx-background-color: #1224c7;" text="PLANOS" textAlignment="CENTER" textFill="WHITE">
+                <Button fx:id="planosButton" alignment="CENTER" layoutX="-2.0" layoutY="500.0" mnemonicParsing="false" onAction="#trocarParaPlanos" prefHeight="46.0" prefWidth="313.0" styleClass="planosButton" stylesheets="@../styles/stylecss.css" text="PLANOS" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font size="22.0" />
                     </font>
@@ -111,7 +111,7 @@
                      <children>
                         <Pane layoutX="2.0" prefHeight="69.0" prefWidth="247.0" style="-fx-background-color: #1224c7; -fx-background-radius: 50px;">
                            <children>
-                              <Label layoutX="41.0" layoutY="15.0" prefHeight="40.0" prefWidth="173.0" text="Plano Básico" textFill="WHITE">
+                              <Label layoutX="46.0" layoutY="15.0" prefHeight="40.0" prefWidth="155.0" text="Plano Básico" textFill="WHITE">
                                  <font>
                                     <Font size="28.0" />
                                  </font>
@@ -156,7 +156,7 @@
                      <children>
                         <Pane layoutX="2.0" prefHeight="69.0" prefWidth="247.0" style="-fx-background-color: #1224c7; -fx-background-radius: 50px;">
                            <children>
-                              <Label layoutX="41.0" layoutY="15.0" prefHeight="40.0" prefWidth="173.0" text="Plano Básico" textFill="WHITE">
+                              <Label layoutX="32.0" layoutY="15.0" prefHeight="40.0" prefWidth="183.0" text="Plano Business" textFill="WHITE">
                                  <font>
                                     <Font size="28.0" />
                                  </font>
@@ -168,22 +168,22 @@
                               <Font size="16.0" />
                            </font>
                         </Text>
-                        <Text layoutX="15.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Gestão de contratos;">
+                        <Text layoutX="10.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Gestão de contratos;">
                            <font>
                               <Font size="16.0" />
                            </font>
                         </Text>
-                        <Text layoutX="11.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Resolução de problemas de faturamento com a concessionária; " wrappingWidth="291.1357421875">
+                        <Text layoutX="11.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Resolução de problemas de faturamento com a concessionária; " wrappingWidth="291.1357421875">
                            <font>
                               <Font size="16.0" />
                            </font>
                         </Text>
-                        <Text layoutX="11.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Personalização da plataforma com as suas de regras de negócio (remuneração do gerador, desconto ao consumidor, bandeiras tarifárias, etc.)." wrappingWidth="304.53125">
+                        <Text layoutX="11.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Personalização da plataforma com as suas de regras de negócio (remuneração do gerador, desconto ao consumidor, bandeiras tarifárias, etc.)." wrappingWidth="304.53125">
                            <font>
                               <Font size="16.0" />
                            </font>
                         </Text>
-                        <Button layoutX="93.0" layoutY="387.0" mnemonicParsing="false" style="-fx-background-color: null; -fx-border-color: #1224c7; -fx-border-radius: 50px;" text="Contratar" textFill="#1224c7">
+                        <Button fx:id="contratarButton" layoutX="93.0" layoutY="387.0" mnemonicParsing="false" styleClass="contratarButton" stylesheets="@../styles/stylecss.css" text="Contratar" textFill="#1224c7">
                            <font>
                               <Font size="25.0" />
                            </font>
