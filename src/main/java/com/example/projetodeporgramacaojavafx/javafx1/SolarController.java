@@ -134,7 +134,7 @@ public class SolarController implements Initializable {
     }
 
     public void emitirBoletos(javafx.scene.input.MouseEvent mouseEvent) {
-        String filePath = "src/main/resources/com/example/projetodeporgramacaojavafx/boletos";
+        String filePath = "src/main/resources/com/example/projetodeporgramacaojavafx/boletos/docBoleto.pdf";
         File file = new File(filePath);
         if (file.exists()) {
             try {
