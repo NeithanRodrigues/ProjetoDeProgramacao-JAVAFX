@@ -14,7 +14,7 @@
 
 <AnchorPane prefHeight="784.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetodeporgramacaojavafx.javafx1.SolarController">
     <children>
-        <AnchorPane prefHeight="785.0" prefWidth="313.0" style="-fx-background-color: #1224c7;">
+        <AnchorPane prefHeight="784.0" prefWidth="313.0" style="-fx-background-color: #1224c7;">
             <children>
             <ImageView fitHeight="161.0" fitWidth="161.0" layoutX="76.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -103,7 +103,7 @@
                 </Label>
             </children>
         </AnchorPane>
-      <ScrollPane hbarPolicy="NEVER" layoutX="308.0" layoutY="83.0" prefHeight="701.0" prefWidth="879.0" vbarPolicy="ALWAYS">
+      <ScrollPane hbarPolicy="NEVER" layoutX="310.0" layoutY="83.0" prefHeight="700.0" prefWidth="873.0" vbarPolicy="ALWAYS">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="954.0" prefWidth="878.0">
                <children>
@@ -205,7 +205,7 @@
                         <Font size="31.0" />
                      </font>
                   </Label>
-                  <Label layoutX="395.0" layoutY="884.0" text="Nathan Rodrigues" textFill="#1224c7" />
+                  <Label layoutX="395.0" layoutY="923.0" text="Nathan Rodrigues" textFill="#1224c7" />
                </children>
             </AnchorPane>
         </content>

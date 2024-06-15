@@ -16,9 +16,9 @@
 
 <AnchorPane prefHeight="784.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetodeporgramacaojavafx.javafx1.SolarController">
     <children>
-      <ScrollPane hbarPolicy="NEVER" hmax="0.0" layoutX="308.0" layoutY="83.0" prefHeight="700.0" prefWidth="879.0" vbarPolicy="ALWAYS" vmax="1.5">
+      <ScrollPane hbarPolicy="NEVER" hmax="0.0" layoutX="310.0" layoutY="83.0" prefHeight="700.0" prefWidth="873.0" vbarPolicy="ALWAYS" vmax="1.5">
          <content>
-              <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="1260.0" prefWidth="877.0">
+              <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="1260.0" prefWidth="878.0">
                   <children>
                       <Label layoutX="26.0" layoutY="30.0" prefHeight="65.0" prefWidth="272.0" text="Emissão de Boletos" textFill="#1224c7" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
                           <font>
@@ -50,7 +50,7 @@
                               <Font size="31.0" />
                           </font>
                       </Label>
-                      <GridPane gridLinesVisible="true" layoutX="29.0" layoutY="620.0" prefHeight="529.0" prefWidth="819.0" AnchorPane.leftAnchor="30.0">
+                      <GridPane gridLinesVisible="true" layoutX="29.0" layoutY="620.0" prefHeight="529.0" prefWidth="819.0" style="-fx-border-color: #1224c7; -fx-background-radius: 25px;" AnchorPane.leftAnchor="30.0">
                           <columnConstraints>
                               <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
                               <ColumnConstraints halignment="CENTER" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
@@ -141,13 +141,13 @@
                         <Label fx:id="id10Label" text="ID° 10" GridPane.columnIndex="1" GridPane.rowIndex="10" />
                         <Label fx:id="id11Label" text="ID° 11" GridPane.columnIndex="1" GridPane.rowIndex="11" />
                         <Label fx:id="id12Label" text="ID° 12" GridPane.columnIndex="1" GridPane.rowIndex="12" />
-                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="8" />
-                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="9" />
-                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="10" />
-                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="11" />
-                        <Label prefHeight="17.0" prefWidth="75.0" text="20/05/2024" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/06/2024" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/07/2024" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/08/2024" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/09/2024" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/10/2024" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/11/2024" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+                        <Label prefHeight="17.0" prefWidth="75.0" text="20/12/2024" GridPane.columnIndex="2" GridPane.rowIndex="12" />
                         <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="6" />
                         <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="7" />
                         <Label text="PENDENTE" GridPane.columnIndex="3" GridPane.rowIndex="8" />
@@ -195,7 +195,7 @@
                               <Cursor fx:constant="DEFAULT" />
                           </cursor>
                       </GridPane>
-                  <Label layoutX="391.0" layoutY="1238.0" text="Nathan Rodrigues" />
+                  <Label layoutX="391.0" layoutY="1238.0" text="Nathan Rodrigues" textFill="#1224c7" />
                   </children>
               </AnchorPane>
          </content>
