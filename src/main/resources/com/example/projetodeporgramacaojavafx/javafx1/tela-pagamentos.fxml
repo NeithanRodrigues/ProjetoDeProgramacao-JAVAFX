@@ -18,7 +18,7 @@
     <children>
       <ScrollPane hbarPolicy="NEVER" hmax="0.0" layoutX="310.0" layoutY="83.0" prefHeight="700.0" prefWidth="873.0" vbarPolicy="ALWAYS" vmax="1.5">
          <content>
-              <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="1260.0" prefWidth="878.0" translateY="-500.0">
+              <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="1260.0" prefWidth="878.0">
                   <children>
                       <Label layoutX="26.0" layoutY="30.0" prefHeight="65.0" prefWidth="272.0" text="Emissão de Boletos" textFill="#1224c7" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
                           <font>
