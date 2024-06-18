@@ -7,9 +7,11 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="784.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetodeporgramacaojavafx.javafx1.SolarController">
+<AnchorPane prefHeight="784.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetodeporgramacaojavafx.javafx1.HomepageController">
     <children>
         <AnchorPane prefHeight="784.0" prefWidth="313.0" style="-fx-background-color: #1224c7;">
             <children>
@@ -100,5 +102,181 @@
                 </Label>
             </children>
         </AnchorPane>
+      <AnchorPane layoutX="358.0" layoutY="106.0" prefHeight="286.0" prefWidth="491.0" style="-fx-background-color: null;">
+         <children>
+            <AnchorPane layoutY="3.0" prefHeight="200.0" prefWidth="375.0" style="-fx-background-color: null; -fx-border-radius: 50px; -fx-border-color: green;">
+               <children>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="196.0" style="-fx-background-color: green; -fx-background-radius: 50px;">
+                     <children>
+                        <Text fill="WHITE" layoutX="27.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Energia Gerada">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Label fx:id="labelEnergiaGerada" layoutX="53.0" layoutY="56.0" prefHeight="89.0" prefWidth="313.0" text="000000">
+                     <font>
+                        <Font size="61.0" />
+                     </font>
+                  </Label>
+                  <Text fill="GREEN" layoutX="249.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="kWh">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="labelPercMesGerada" alignment="CENTER" layoutX="14.0" layoutY="176.0" prefHeight="21.0" prefWidth="344.0" text="X% em relação ao último mês." textAlignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="39.0" fitWidth="42.0" layoutX="322.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/raio2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="396.0" layoutY="7.0" prefHeight="200.0" prefWidth="375.0" style="-fx-background-color: null; -fx-border-radius: 50px; -fx-border-color: red;">
+               <children>
+                  <AnchorPane layoutX="186.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="196.0" style="-fx-background-color: red; -fx-background-radius: 50px;">
+                     <children>
+                        <Text fill="WHITE" layoutX="32.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Energia Usada">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Label fx:id="labelEnergiaUsada" layoutX="53.0" layoutY="56.0" prefHeight="89.0" prefWidth="313.0" text="000000">
+                     <font>
+                        <Font size="61.0" />
+                     </font>
+                  </Label>
+                  <Text fill="RED" layoutX="248.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="kWh">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="labelPercMesUsada" alignment="CENTER" layoutX="14.0" layoutY="176.0" prefHeight="21.0" prefWidth="344.0" text="X% em relação ao último mês." textAlignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="39.0" fitWidth="42.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/raio.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="23.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/agua.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="117.0" layoutY="225.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="53.0" prefWidth="546.0" style="-fx-background-color: NULL; -fx-background-radius: 50px; -fx-border-color: #1224c7; -fx-border-radius: 50px;">
+               <children>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="196.0" style="-fx-background-color: null; -fx-background-radius: 50px;">
+                     <children>
+                        <Text fill="#1224c7" layoutX="27.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Saldo Pendente">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#1224c7" layoutX="71.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="( a pagar )">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Text fill="#1224c7" layoutX="490.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="kWh">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="saldoRestanteLabel" layoutX="333.0" layoutY="-5.0" text="-000000">
+                     <font>
+                        <Font size="43.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="358.0" layoutY="421.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312.0" prefWidth="264.0" style="-fx-background-color: white; -fx-border-radius: 50px; -fx-border-color: #1224c7; -fx-background-radius: 50px;">
+         <children>
+            <Pane layoutX="9.0" prefHeight="69.0" prefWidth="247.0" style="-fx-background-color: #1224c7; -fx-background-radius: 50px;">
+               <children>
+                  <Label layoutX="33.0" layoutY="15.0" prefHeight="40.0" prefWidth="182.0" text="Sobre Seu Plano" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Text layoutX="10.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Coleta e processamento de faturas; ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Integração com softwares de inversores; ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Painel do gerador e do consumidor;">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Balanço de créditos e relatório de geração e consumo." wrappingWidth="304.53125">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Label layoutX="57.0" layoutY="264.0" text="Plano Atual" textFill="#1224c7">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/checkbox.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="659.0" layoutY="421.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312.0" prefWidth="479.0" style="-fx-background-color: white; -fx-border-radius: 50px; -fx-border-color: #1224c7; -fx-background-radius: 50px;">
+         <children>
+            <Pane layoutX="232.0" prefHeight="69.0" prefWidth="247.0" style="-fx-background-color: #1224c7; -fx-background-radius: 50px;">
+               <children>
+                  <Label layoutX="10.0" layoutY="15.0" prefHeight="40.0" prefWidth="228.0" text="Status do Financeiro" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Text fill="RED" layoutX="106.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Boleto Próximo do Vencimento:" underline="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="60.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seu próximo boleto do contrato com a Solar Lux, tem data de vencimento para o dia 20/06/2024. Efetue o pagamento o quanto antes e evite o juros de nossa empresa!" wrappingWidth="375.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="242.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" prefHeight="46.0" prefWidth="132.0" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR BOLETO" textFill="#fcfcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
     </children>
 </AnchorPane>
