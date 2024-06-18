@@ -11,7 +11,6 @@ Essa interface foi feita a fins de estudo e experiência com interfaces gráfica
 - O projeto foi passado pelo professor da minha faculdade;
 - Essa foi a primeira vez que iniciei algo que, para o meu conhecimento até então, foi de uma complexidade maior;
 - Os labels numéricos estão sendo gerados aleatoriamente (com intervalo pré-definido) sempre que a ação para a abrir alguma página for chamada;
-- Toda construção do código está em uma única classe;
 - Projeto feito para estudar interface gráfica com JavaFX e SceneBuilder.
 
 ## Tecnologias Usadas
