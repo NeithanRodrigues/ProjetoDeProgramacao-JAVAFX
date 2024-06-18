@@ -52,8 +52,14 @@ public class CreditosController implements Initializable {
     }
 
     public void setLabelsInTabelaCreditos() {
-        // COLUNA DE CONSUMO DE UNIDADE:
         Random random = new Random();
+        int maxValueGerado = 500000;
+        int minValueGerado = 475000;
+        int maxValueUsado = 600000;
+        int minValueUsado = 550000;
+        double randomGerado = random.nextDouble(maxValueGerado - minValueGerado + 1) + minValueGerado;
+        double randomUsado = random.nextDouble(maxValueUsado - minValueUsado + 1) + minValueUsado;
+        // COLUNA DE CONSUMO DE UNIDADE:
         List<Label> labelList = new ArrayList<>();
         labelList.add(consumoUnidade1);
         labelList.add(consumoUnidade2);
@@ -64,13 +70,11 @@ public class CreditosController implements Initializable {
         double energia2;
         double energia3;
         for (Label i : labelList) {
-
-            Random random1 = new Random();
             int max = 6;
             int min = 4;
             int cont = random.nextInt(max - min + 1) + min;
             energia = randomUsado / cont;
-            String energiaFormatada = String.format("%.0f", energia);
+            String energiaFormatada = String.format("%.2f", energia);
             i.setText(energiaFormatada + " kWh");
         }
 
@@ -82,12 +86,11 @@ public class CreditosController implements Initializable {
         labelList2.add(geracaoUnidade4);
         labelList2.add(geracaoUnidade5);
         for (Label label : labelList2) {
-            Random random1 = new Random();
             int max = 6;
             int min = 4;
-            int cont = random.nextInt(max - min + 1) + min;
+            double cont = random.nextDouble(max - min + 1) + min;
             energia2 = randomGerado / cont;
-            String energiaFormatada = String.format("%.0f", energia2);
+            String energiaFormatada = String.format("%.2f", energia2);
             label.setText(energiaFormatada + " kWh");
         }
 
@@ -99,7 +102,6 @@ public class CreditosController implements Initializable {
         labelList3.add(saldoUnidade4);
         labelList3.add(saldoUnidade5);
         for (Label label : labelList3) {
-            Random random1 = new Random();
             int max = 12500;
             int min = 7500;
             int cont = random.nextInt(max - min + 1) + min;
@@ -113,7 +115,6 @@ public class CreditosController implements Initializable {
         labelList4.add(mesAnterior4);
         labelList4.add(mesAnterior5);
         for (Label label : labelList4) {
-            Random random1 = new Random();
             int max = 7;
             int min = 4;
             double cont = random.nextDouble(max - min + 1) + min;
@@ -138,7 +139,7 @@ public class CreditosController implements Initializable {
         idUnidade5.setText(String.valueOf(valorRandom5));
     }
 
-    public void setConsumoUnidade() {
+    /*public void setConsumoUnidade() {
         Random random = new Random();
         int maxValueConsumo = 500000;
         int minValueConsumo = 475000;
@@ -152,7 +153,7 @@ public class CreditosController implements Initializable {
         consumoUnidade3.setText(String.valueOf(randomConsumo3));
         consumoUnidade4.setText(String.valueOf(randomConsumo4));
         consumoUnidade5.setText(String.valueOf(randomConsumo5));
-    }
+    }*/
 
     @FXML
     void trocarParaPrincipal(ActionEvent event) throws IOException {

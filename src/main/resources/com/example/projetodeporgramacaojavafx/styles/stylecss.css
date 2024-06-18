@@ -62,3 +62,21 @@
         -fx-font-size: 22px;
         -fx-text-fill: #4b57c9;
 }
+
+.emitirButton{
+    -fx-background-color: null;
+    -fx-border-color: #1224c7;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-text-fill: #1224c7;
+
+}
+
+.emitirButton:hover{
+-fx-background-color: #1224c7;
+    -fx-border-color: #1224c7;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-text-fill: white;
+
+}

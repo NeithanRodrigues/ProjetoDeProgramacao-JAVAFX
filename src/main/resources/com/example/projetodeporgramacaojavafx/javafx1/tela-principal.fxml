@@ -271,7 +271,7 @@
                   <Font size="18.0" />
                </font>
             </Text>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="242.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" prefHeight="46.0" prefWidth="132.0" style="-fx-background-color: #1224c7; -fx-border-color: #1224c7; -fx-border-radius: 50px; -fx-background-radius: 50px;" text="EMITIR BOLETO" textFill="#fcfcfc">
+            <Button fx:id="emitirButton" alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="242.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#emitirBoletos" prefHeight="46.0" prefWidth="132.0" styleClass="emitirButton" stylesheets="@../styles/stylecss.css" text="EMITIR BOLETO" textFill="#fcfcfc">
                <font>
                   <Font size="15.0" />
                </font>
