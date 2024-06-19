@@ -139,22 +139,6 @@ public class CreditosController implements Initializable {
         idUnidade5.setText(String.valueOf(valorRandom5));
     }
 
-    /*public void setConsumoUnidade() {
-        Random random = new Random();
-        int maxValueConsumo = 500000;
-        int minValueConsumo = 475000;
-        double randomConsumo1 = random.nextDouble(maxValueConsumo - minValueConsumo + 1) + minValueConsumo;
-        double randomConsumo2 = random.nextDouble(maxValueConsumo - minValueConsumo + 1) + minValueConsumo;
-        double randomConsumo3 = random.nextDouble(maxValueConsumo - minValueConsumo + 1) + minValueConsumo;
-        double randomConsumo4 = random.nextDouble(maxValueConsumo - minValueConsumo + 1) + minValueConsumo;
-        double randomConsumo5 = random.nextDouble(maxValueConsumo - minValueConsumo + 1) + minValueConsumo;
-
-        consumoUnidade2.setText(String.valueOf(randomConsumo2));
-        consumoUnidade3.setText(String.valueOf(randomConsumo3));
-        consumoUnidade4.setText(String.valueOf(randomConsumo4));
-        consumoUnidade5.setText(String.valueOf(randomConsumo5));
-    }*/
-
     @FXML
     void trocarParaPrincipal(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(SolarApplication.class.getResource("tela-principal.fxml"));
