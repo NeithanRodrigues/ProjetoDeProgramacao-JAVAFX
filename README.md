@@ -4,6 +4,8 @@ Tema do Projeto: Construção de Software de gestão dos créditos de energia so
 
 Antes de qualquer coisa,sou inciante na linguagem e na programação, então, algumas considerações precisam ser feitas. Fiz esse projeto de uma forma que, o aprendizado acompanhou a prática. Por isso, o projeto não tem uma grande estrutura com várias classes e objetos, banco de dados ou uma interação significativa com o usuário. 
 
+Fiz um projeto estático que simula um cliente de uma empresa que dei o nome de Solar Lux, onde ele tem acesso a quantidade de energia gerada em suas unidades, seu estatus de pagamento (com um contrato de um ano, também simulado por mim), informações sobre o seu plano e, uma página geral com todas as informações citadas anteriormente.
+
 Essa interface foi feita a fins de estudo e experiência com interfaces gráficas, então aqui estão alguns pontos necesários que tenho que ressaltar.
 
 ## Observações
