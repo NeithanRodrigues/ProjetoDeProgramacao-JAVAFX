@@ -24,7 +24,7 @@ public class HomepageController implements Initializable {
     public Label saldoRestanteLabel;
 
     public void setLabelCreditosInHomePage(){
-        // LABELS DOS BLOCOS DE ENERGIA
+        // LABELS DOS BLOCOS DE ENERGIA NA PÁGINA PRINCIPAL E NA PÁGINA DE CRÉDITOS
         Random random = new Random();
         int maxValueGerado = 500000;
         int minValueGerado = 475000;
